@@ -1,0 +1,33 @@
+p {
+	font-family: serif;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+#copyright {
+	text-align: center;
+}
+span {
+	font-weight: bold;
+} 
+hr {
+	width: 1000px;
+	color: black;
+
+}
+table {
+	width: 1000px;
+}
+body {
+	border-style: solid;
+	border-color: grey;
+	border-width: 50px 300px 50px 300px;
+}
+#uvod {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+}
+span {
+	font-weight: bold;
+}
