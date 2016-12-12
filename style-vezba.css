@@ -1,0 +1,38 @@
+header {
+	background-color: gray;
+
+}
+ul {
+	float: right;
+
+}
+h1 {
+	display: inline-block;
+	font-size: 30px;
+}
+h2 {
+	text-align: center;
+}
+.kocka {
+	border: 2px solid black;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	text-align: center;
+	margin-left: 100px;
+}
+.krug {
+	border: 2px solid black;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	background-color: red;
+}
+#krug1, #krug2, #krug3, #krug4 {
+	position: relative;
+	left: 75px;
+	top: -30px;
+}
+#kocka1 {
+	margin-left: 20%;
+}
