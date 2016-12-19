@@ -1,0 +1,112 @@
+* {
+	color: orange;
+	font-family: 'Lobster', cursive;
+}
+body {
+	background-image: url("https://i1.creativecow.net/u/12414/spotlightsmall.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+h1 {
+	display: inline-block;
+	margin: 16px;
+}
+#h1Username {
+	font-size: 40px;
+	margin-top: 2px;
+	margin-right: 0px;
+}
+ul {
+	float: right;
+	list-style: none;
+	margin: 16px;
+	padding-left: 0px;
+}
+li {
+	display: inline-block;
+	font-size: 20px;
+
+}
+a {
+	text-decoration: none;
+}
+#oMeni {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+article {
+	text-align: center;
+}
+section {
+	border: 2px solid orange;
+	display: inline-block;
+	background-image: url("http://magicandmurder.com/wp-content/uploads/2015/11/coming-soon.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 140px;
+	width: 25%;
+	margin: 110px auto;
+}
+.h1Projekat {
+	font-size: 30px;
+	margin-top: 5px;
+}
+#P1, #P2, #P3, #P4 {
+	margin-bottom: 0px;
+}
+#P3, #P4, #P5, #P6 {
+	margin-top: 20px;
+}
+#P1, #P3, #P5 {
+	margin-right: 8px;
+}
+#P2, #P4, #P6 {
+	margin-left: 8px;
+	margin-right: 15px;
+}
+#P5, #P6 {
+	margin-bottom: 10px;
+}
+footer {
+	background-color: black;
+	opacity: 0.9;
+	border: 2px solid black;
+	border-top: 2px solid orange;
+	height: 100px;
+
+}
+.kontaktLink {
+	float: right;
+	margin: 5px;
+	font-size: 20px;
+}
+.kontaktText {
+	display: inline-block;
+}
+@media screen and (max-width: 800px) {
+
+	section {
+		display: block;
+		width: 70%;
+		height: 200px;
+		margin-top: 150px auto;
+	}
+	#P1 {
+		margin-top: 200px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#P2, #P3, #P4, #P5, #P6 {
+		margin-top: 20px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#P3, #P5 {
+		margin-top: 0px;
+	}
+}
